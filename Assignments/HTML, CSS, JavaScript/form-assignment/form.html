@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <form action="">
+        <fieldset class="center-text margin">
+            <span class=" bold">Pizza shop 2.0</span>
+        </fieldset>
+        <fieldset class="left input-name-height">
+            <label for="name">Name</label>
+        </fieldset>
+        <fieldset class="right input-name-height">
+            <input type="text" name="name" id="name" placeholder="Full name" required minlength="5" maxlength="30">
+        </fieldset>
+        <fieldset class="left radio">
+            <p class="left-text">Pizza topping</p><br>
+        </fieldset>
+        <fieldset class="right radio">
+            <input type="radio" name="pizza-topping" id="supreme" value="Supreme">
+            <label for="supreme">Supreme</label><br>
+            <input type="radio" name="pizza-topping" id="vegetarian" value="Vegetarian">
+            <label for="vegetarian">Vegetarian</label><br>
+            <input type="radio" name="pizza-topping" id="hawaiian" value="Hawaiian">
+            <label for="hawaiian">Hawaiian</label><br>
+        </fieldset>
+        <fieldset class="left select">
+            <label for="pizza-sauce">Choose pizza sauce</label>
+        </fieldset>
+        <fieldset class="right select">
+            <select name="pizza-sauce" id="pizza-sauce">
+                <option value="tomato">Tomato</option>
+                <option value="pesto">Pesto</option>
+                <option value="mushroom">Mushroom</option>
+            </select><br>
+        </fieldset>
+        <fieldset class="left checkbox">
+            <span>Opianal Extras</span>
+        </fieldset>
+        <fieldset class="right checkbox">
+            <input type="checkbox" id="extra-cheese" name="extra-cheese" value="Extra cheese">
+            <label for="extra-cheese"> Extra Cheese</label>
+            <input type="checkbox" id="gluten-free" name="gluten-free" value="Gluten free">
+            <label for="gluten-free"> Gluten free</label>
+        </fieldset>
+        <fieldset>
+            <label for="delivery-instructions">Delivery Instructions:</label><br />
+            <textarea name="delivery-instructions" id="delivery-instructions" cols="30" rows="10" maxlength="60"
+                placeholder="Please enter your instructions"></textarea><br>
+        </fieldset>
+        <fieldset>
+            <input type="submit" value="Send my order">
+        </fieldset>
+
+    </form>
+</body>
+
+</html>

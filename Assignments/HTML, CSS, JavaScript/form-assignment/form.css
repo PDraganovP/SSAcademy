@@ -1,0 +1,59 @@
+
+* {
+    box-sizing: border-box;
+}
+
+form {
+    border: 1px solid black;
+    width: 600px;
+    margin: auto;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.input-name-height {
+    height: 30px;
+}
+
+.select {
+    height: 28px;
+}
+
+.radio {
+    height: 66px;
+}
+
+.checkbox {
+    height: 30px;
+}
+
+textarea {
+    width: 100%;
+}
+
+fieldset {
+    padding: 1px 1px 1px 1px;
+}
+
+.left {
+    display: inline-block;
+    width: 188px;
+}
+
+.right {
+    display: inline-block;
+    width: 398px;
+}
+.center-text{
+    text-align: center;
+}
+.left-text{
+    text-align:left;
+}
+
+.margin{
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
