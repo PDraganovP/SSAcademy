@@ -1,0 +1,44 @@
+main {
+    display: flex;
+    min-height: 80%;
+}
+
+figure {
+    margin: 0px 0px;
+    flex: 15%;
+    background: #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+article {
+    flex: 70%;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+aside {
+    padding: 20px;
+    flex: 15%;
+    background-color: #8b7f7f;
+}
+
+.vertical-nav {
+    height: 100%;
+}
+
+.vertical-nav a {
+    display: block;
+    text-decoration: none;
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: #2ba0ca;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+@media (max-width: 600px) {
+    figure, article, aside {
+        flex: 100%;
+    }
+}

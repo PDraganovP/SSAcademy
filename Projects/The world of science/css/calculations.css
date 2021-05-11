@@ -1,0 +1,39 @@
+.section-left {
+    flex: 20%;
+    background-color: lightblue;
+}
+
+.section-left p {
+    padding-left: 10px;
+}
+
+.section-right {
+    /* min-width: 100%; */
+    flex: 80%;
+    height: 50px;
+}
+
+fieldset {
+    float: left;
+    padding-top: 10px;
+    margin: 0px 0px;
+    width: 50%;
+    border: none;
+}
+
+.result-field {
+    clear: both;
+    text-align: center;
+    /* margin: auto auto; */
+    /* float: left; */
+    /* width: 30%; */
+}
+
+.result-field p {
+    display: inline-block;
+}
+
+button {
+    margin-left: 30px;
+    margin-right: 30px;
+}

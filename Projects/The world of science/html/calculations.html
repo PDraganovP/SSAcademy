@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Calculations</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/flex.css">
+    <link rel="stylesheet" href="../css/calculations.css">
+
+
+</head>
+
+<body>
+    <header>
+        <blockquote>
+            <h1>Knowledge is a power</h1>
+            <h5>- Francis Bacon</h5>
+        </blockquote>
+    </header>
+    <nav class="horizontal-nav">
+        <a href="../index.html">Home</a>
+        <a href="scientists/schrödinger.html ">Scientists</a>
+        <a href="calculations.html">Calculations</a>
+    </nav>
+    <main>
+        <section class="section-left">
+            <h1>Formulas</h1>
+            <p>F = m.a</p>
+            <p>F - force (N)</p>
+            <p>m - mass (kg)</p>
+            <p>a - acceleration (m/s/s)</p>
+        </section>
+
+        <section class="section-right">
+            <fieldset>
+                <label for="m">Please enter m</label>
+                <input type="number" name="m" id="m"> kg
+            </fieldset>
+            <fieldset>
+                <label for="a">Please enter a</label>
+                <input type="number" name="a" id="a"> m/s/s
+            </fieldset>
+            <div class="result-field">
+                <button id="calculate">Calculate</button>
+                <p id="result"></p>
+                <button id="reset">Reset</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>2021</p>
+    </footer>
+    <script src="../js/calculations.js">
+    </script>
+</body>
+
+</html>
