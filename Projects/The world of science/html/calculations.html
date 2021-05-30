@@ -8,8 +8,6 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/flex.css">
     <link rel="stylesheet" href="../css/calculations.css">
-
-
 </head>
 
 <body>
@@ -23,29 +21,77 @@
         <a href="../index.html">Home</a>
         <a href="scientists/schrödinger.html ">Scientists</a>
         <a href="calculations.html">Calculations</a>
+        <a href="nobel-laureates.html">Laureates</a>
     </nav>
     <main>
         <section class="section-left">
             <h1>Formulas</h1>
-            <p>F = m.a</p>
-            <p>F - force (N)</p>
-            <p>m - mass (kg)</p>
-            <p>a - acceleration (m/s/s)</p>
+            <div class="formulas-container">
+                <h4 class="formula">F = m.a</h4>
+                <div class="formula-description">
+                    <p>F - force (N)</p>
+                    <p>m - mass (kg)</p>
+                    <p>a - acceleration (m/s/s)</p>
+                </div>
+                <h4 class="formula">I = V/R</h4>
+                <div class="formula-description">
+                    <p>I - current (A)</p>
+                    <p>V - voltage (V)</p>
+                    <p>R - resistance (Ω)</p>
+                </div>
+                <h4 class="formula">P = W/t</h4>
+                <div class="formula-description">
+                    <p>P - power (w)</p>
+                    <p>W - work (j)</p>
+                    <p>t - time (s)</p>
+                </div>
+            </div>
         </section>
-
         <section class="section-right">
-            <fieldset>
-                <label for="m">Please enter m</label>
-                <input type="number" name="m" id="m"> kg
-            </fieldset>
-            <fieldset>
-                <label for="a">Please enter a</label>
-                <input type="number" name="a" id="a"> m/s/s
-            </fieldset>
-            <div class="result-field">
-                <button id="calculate">Calculate</button>
-                <p id="result"></p>
-                <button id="reset">Reset</button>
+            <div class="user-inputs" name="F = m.a">
+                <fieldset>
+                    <label for="m">Please enter m</label>
+                    <input type="number" name="m" id="m"> kg
+                </fieldset>
+                <fieldset>
+                    <label for="a">Please enter a</label>
+                    <input type="number" name="a" id="a"> m/s/s
+                </fieldset>
+                <div class="result-field">
+                    <button id="calculate-f">Calculate</button>
+                    <p id="result-f"></p>
+                    <button id="reset-f">Reset</button>
+                </div>
+            </div>
+            <div class="user-inputs" name="I = V/R">
+                <fieldset>
+                    <label for="V">Please enter V</label>
+                    <input type="number" name="V" id="V"> V
+                </fieldset>
+                <fieldset>
+                    <label for="R">Please enter R</label>
+                    <input type="number" name="R" id="R"> Ω
+                </fieldset>
+                <div class="result-field">
+                    <button id="calculate-i">Calculate</button>
+                    <p id="result-i"></p>
+                    <button id="reset-i">Reset</button>
+                </div>
+            </div>
+            <div class="user-inputs" name="P = W/t">
+                <fieldset>
+                    <label for="W">Please enter W</label>
+                    <input type="number" name="W" id="W"> j
+                </fieldset>
+                <fieldset>
+                    <label for="t">Please enter t</label>
+                    <input type="number" name="t" id="t"> s
+                </fieldset>
+                <div class="result-field">
+                    <button id="calculate-p">Calculate</button>
+                    <p id="result-p"></p>
+                    <button id="reset-p">Reset</button>
+                </div>
             </div>
         </section>
     </main>

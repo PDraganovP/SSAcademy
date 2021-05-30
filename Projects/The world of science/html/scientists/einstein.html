@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../css/main.css">
     <link rel="stylesheet" href="../../css/flex.css">
+    <link rel="stylesheet" href="../../css/scientists.css">
 </head>
 
 <body>
@@ -20,6 +21,7 @@
         <a href="../../index.html">Home</a>
         <a href="../scientists.html">Scientists</a>
         <a href="../calculations.html">Calculations</a>
+        <a href="../nobel-laureates.html">Laureates</a>
     </nav>
 
     <main>
@@ -43,22 +45,25 @@
                 he is the only scientist since Newton’s time who can bear the comparison), he showed no particular
                 intellectual promise as a youngster. As a matter of fact, he was so slow in learning to speak
                 that by the time he was three there was some feeling that he might prove retarded.
+                <span id="read-more">Read more</span>
             </p>
-            <p>
-                In 1894 his father (who had failed in business) left for Milan, Italy, while Albert stayed behind
-                to finish his high school studies. However, he did very badly in Latin and Greek and was interested
-                only in mathematics, so he left school by invitation of the teacher who said, “You will never
-                amount to anything, Einstein.” The young man thus became the most unusual dropout in the history
-                of science. His uncle, Jakob, another engineer, then began giving him mathematical puzzles that
-                continued to feed his interest in this direction.
-            </p>
-            <p>
-                In the special theory of relativity, Einstein worked out an interrelationship of mass and energy in
-                a famous equation that goes: E=mc2, where E is energy, m mass, and c the velocity of light. Since
-                the velocity of light is a huge quantity, a small amount of mass (multiplied by the square of the
-                velocity) is equivalent to a large amount of energy.
+            <div id="more-info">
+                <p>
+                    In 1894 his father (who had failed in business) left for Milan, Italy, while Albert stayed behind
+                    to finish his high school studies. However, he did very badly in Latin and Greek and was interested
+                    only in mathematics, so he left school by invitation of the teacher who said, “You will never
+                    amount to anything, Einstein.” The young man thus became the most unusual dropout in the history
+                    of science. His uncle, Jakob, another engineer, then began giving him mathematical puzzles that
+                    continued to feed his interest in this direction.
+                </p>
+                <p>
+                    In the special theory of relativity, Einstein worked out an interrelationship of mass and energy in
+                    a famous equation that goes: E=mc2, where E is energy, m mass, and c the velocity of light. Since
+                    the velocity of light is a huge quantity, a small amount of mass (multiplied by the square of the
+                    velocity) is equivalent to a large amount of energy. <span id="read-less">Read less</span>
 
-            </p>
+                </p>
+            </div>
         </article>
         <aside>
             <nav class="vertical-nav">
@@ -67,11 +72,31 @@
                 <a href="bohr.html">Bohr</a>
                 <a href="minev.html">Minev</a>
             </nav>
+            <div class="slider">
+                <figure class="slide">
+                    <img src="../../images/Niels_Bohr.jpg" alt="Bohr" width="120" height="169">
+                    <figcaption>Bohr</figcaption>
+                </figure>
+                <figure class="slide">
+                    <img src="../../images/Einstein.jpg" alt="Einstein" width="120" height="169">
+                    <figcaption>Einstein</figcaption>
+                </figure>
+                <figure class="slide">
+                    <img src="../../images/Erwin_Schrödinger.jpg" alt="Schrödinger" width="120" height="170">
+                    <figcaption>Schrödinger</figcaption>
+                </figure>
+                <figure class="slide">
+                    <img src="../../images/Zlatko Minev.jpg" alt="Minev" width="120" height="120">
+                    <figcaption>Minev</figcaption>
+                </figure>
+            </div>
         </aside>
     </main>
     <footer>
         <p>2021</p>
     </footer>
+    <script src="../../js/scientists.js">
+    </script>
 </body>
 
 </html>

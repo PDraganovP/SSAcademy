@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../css/main.css">
     <link rel="stylesheet" href="../../css/flex.css">
+    <link rel="stylesheet" href="../../css/scientists.css ">
 </head>
 
 <body>
@@ -20,6 +21,7 @@
         <a href="../../index.html">Home</a>
         <a href="../scientists.html">Scientists</a>
         <a href="../calculations.html">Calculations</a>
+        <a href="../nobel-laureates.html">Laureates</a>
     </nav>
 
     <main>
@@ -38,21 +40,23 @@
                 Zlatko Minev overturned a mainstay of quantum physics that had troubled Niels Bohr and
                 Albert Einstein alike. For most of the 20th century, it was assumed that atoms change
                 from one energy level to another in abrupt, unpredictable, discrete quantum jumps.
-                Minev proved otherwise.
+                Minev proved otherwise. <span id="read-more">Read more</span>
             </p>
-            <p>
-                His experiment showed that when an atom is bombarded with energy in the form of light,
-                it moves from one energy level to the next in a continuous, smooth way, not an instantaneous
-                jump. What’s more, Minev was able to detect the change in an atom’s energy level quickly
-                enough to control it so he could stop the jump midflight and reverse it before it was completed.
-            </p>
-            <p>
-                Minev’s work could have major implications for quantum computing. Such systems are riddled
-                with errors that occur when subatomic particles jump between energy levels, like the atoms
-                in Minev’s experiment. The ability to detect and reverse such jumps before they finish
-                should dramatically boost the power of quantum computers, allowing them to better crack
-                encryption, model chemical reactions, and forecast weather.
-            </p>
+            <div id="more-info">
+                <p>
+                    His experiment showed that when an atom is bombarded with energy in the form of light,
+                    it moves from one energy level to the next in a continuous, smooth way, not an instantaneous
+                    jump. What’s more, Minev was able to detect the change in an atom’s energy level quickly
+                    enough to control it so he could stop the jump midflight and reverse it before it was completed.
+                </p>
+                <p>
+                    Minev’s work could have major implications for quantum computing. Such systems are riddled
+                    with errors that occur when subatomic particles jump between energy levels, like the atoms
+                    in Minev’s experiment. The ability to detect and reverse such jumps before they finish
+                    should dramatically boost the power of quantum computers, allowing them to better crack
+                    encryption, model chemical reactions, and forecast weather. <span id="read-less">Read less</span>
+                </p>
+            </div>
         </article>
         <aside>
             <nav class="vertical-nav">
@@ -61,11 +65,31 @@
                 <a href="bohr.html">Bohr</a>
                 <a href="minev.html">Minev</a>
             </nav>
+            <div class="slider">
+                <figure class="slide">
+                    <img src="../../images/Niels_Bohr.jpg" alt="Bohr" width="120" height="169">
+                    <figcaption>Bohr</figcaption>
+                </figure>
+                <figure class="slide">
+                    <img src="../../images/Einstein.jpg" alt="Einstein" width="120" height="169">
+                    <figcaption>Einstein</figcaption>
+                </figure>
+                <figure class="slide">
+                    <img src="../../images/Erwin_Schrödinger.jpg" alt="Schrödinger" width="120" height="170">
+                    <figcaption>Schrödinger</figcaption>
+                </figure>
+                <figure class="slide">
+                    <img src="../../images/Zlatko Minev.jpg" alt="Minev" width="120" height="120">
+                    <figcaption>Minev</figcaption>
+                </figure>
+            </div>
         </aside>
     </main>
     <footer>
         <p>2021</p>
     </footer>
+    <script src="../../js/scientists.js">
+    </script>
 </body>
 
 </html>

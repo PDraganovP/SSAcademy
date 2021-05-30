@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../../css/main.css">
     <link rel="stylesheet" href="../../css/flex.css">
+    <link rel="stylesheet" href="../../css/scientists.css">
 </head>
 
 <body>
@@ -20,6 +21,7 @@
         <a href="../../index.html">Home</a>
         <a href="schrödinger.html">Scientists</a>
         <a href="../calculations.html">Calculations</a>
+        <a href="../nobel-laureates.html">Laureates</a>
     </nav>
 
     <main>
@@ -42,18 +44,21 @@
                 he survived unharmed. In 1918 he made up his mind to abandon physics for philosophy,
                 but the city in which he had hoped to obtain a university post was lost to Austria
                 in the peace treaties. Schrödinger therefore remained a physicist.
+                <span id="read-more">Read more</span>
             </p>
-            <p>
-                In 1933 Schrödinger was awarded the Nobel Prize in physics for his work on wave
-                mechanics, sharing it with Dirac.
-            </p>
-            <p>In 1928 Schrödinger had succeeded Max Planck as professor of theoretical physics at
-                the University of Berlin, but in the same year that he earned the Nobel Prize,
-                Hitler came to power. Schrödinger did not wish to remain, and left for his native Austria.
-                Although not threatened) he made no secret of his detestation of the Nazis and their antiSemitic
-                policy. He once interfered with storm troopers bent on a pogrom. He nearly got himself killed
-                for his pains.
-            </p>
+            <div id="more-info">
+                <p>
+                    In 1933 Schrödinger was awarded the Nobel Prize in physics for his work on wave
+                    mechanics, sharing it with Dirac.
+                </p>
+                <p>In 1928 Schrödinger had succeeded Max Planck as professor of theoretical physics at
+                    the University of Berlin, but in the same year that he earned the Nobel Prize,
+                    Hitler came to power. Schrödinger did not wish to remain, and left for his native Austria.
+                    Although not threatened) he made no secret of his detestation of the Nazis and their antiSemitic
+                    policy. He once interfered with storm troopers bent on a pogrom. He nearly got himself killed
+                    for his pains. <span id="read-less">Read less</span>
+                </p>
+            </div>
         </article>
         <aside>
             <nav class="vertical-nav">
@@ -62,11 +67,31 @@
                 <a href="bohr.html">Bohr</a>
                 <a href="minev.html">Minev</a>
             </nav>
+            <div class="slider">
+                <figure class="slide">
+                    <img src="../../images/Niels_Bohr.jpg" alt="Bohr" width="120" height="169">
+                    <figcaption>Bohr</figcaption>
+                </figure>
+                <figure class="slide">
+                    <img src="../../images/Einstein.jpg" alt="Einstein" width="120" height="169">
+                    <figcaption>Einstein</figcaption>
+                </figure>
+                <figure class="slide">
+                    <img src="../../images/Erwin_Schrödinger.jpg" alt="Schrödinger" width="120" height="170">
+                    <figcaption>Schrödinger</figcaption>
+                </figure>
+                <figure class="slide">
+                    <img src="../../images/Zlatko Minev.jpg" alt="Minev" width="120" height="120">
+                    <figcaption>Minev</figcaption>
+                </figure>
+            </div>
         </aside>
     </main>
     <footer>
         <p>2021</p>
     </footer>
+    <script src="../../js/scientists.js">
+    </script>
 </body>
 
 </html>

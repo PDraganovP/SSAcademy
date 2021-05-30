@@ -1,0 +1,31 @@
+#more-info {
+    display: none
+}
+
+#read-more, #read-less {
+    color: coral
+}
+
+#read-more:hover, #read-less:hover {
+    cursor: pointer;
+}
+
+.slider figure {
+    padding: 0px;
+    margin-top: 50px;
+    position: relative;
+    background-color: transparent;
+    text-align: center;
+}
+
+.slider figcaption {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    color: coral;
+    bottom: 3px;
+}
+
+.slide {
+    display: none;
+}

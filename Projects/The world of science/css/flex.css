@@ -23,10 +23,6 @@ aside {
     background-color: #8b7f7f;
 }
 
-.vertical-nav {
-    height: 100%;
-}
-
 .vertical-nav a {
     display: block;
     text-decoration: none;

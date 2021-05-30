@@ -11,10 +11,4 @@ footer {
 section h1 {
     text-align: left;
     text-transform: lowercase;
-    text-transform: capitalize;
-}
-
-section h1::first-letter {
-    letter-spacing: 5px;
-    color: coral;
 }

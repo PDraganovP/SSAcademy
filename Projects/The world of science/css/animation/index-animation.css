@@ -1,0 +1,17 @@
+h1 span {
+    animation: first-letter-growing 5s forwards;
+    animation-delay: 3s;
+}
+
+@keyframes first-letter-growing {
+    from {
+        color: black;
+        font-size: 100%;
+        text-transform: capitalize;
+    }
+    to {
+        color: coral;
+        font-size: 200%;
+        text-transform: capitalize;
+    }
+}
