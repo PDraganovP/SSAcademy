@@ -19,16 +19,16 @@ let resetFButton = document.getElementById("reset-f");
 resetFButton.addEventListener("click", resetF);
 
 function calculateI() {
-    let v = document.getElementById("V").value;
+    let u = document.getElementById("U").value;
     let r = document.getElementById("R").value;
-    let i = v / r;
+    let i = u / r;
     document.getElementById("result-i").innerHTML = "I = " + i + " A";
 }
 let calculateIButton = document.getElementById("calculate-i");
 calculateIButton.addEventListener("click", calculateI);
 
 function resetI() {
-    document.getElementById("V").value = "";
+    document.getElementById("U").value = "";
     document.getElementById("R").value = "";
     document.getElementById("result-i").innerHTML = "";
 }
@@ -36,21 +36,26 @@ let resetIButton = document.getElementById("reset-i");
 resetIButton.addEventListener("click", resetI);
 
 function calculateP() {
-    let w = document.getElementById("W").value;
+    let a = document.getElementById("A").value;
     let t = document.getElementById("t").value;
-    let p = w / t;
-    document.getElementById("result-p").innerHTML = "P = " + p + " w";
+    let p = a / t;
+    document.getElementById("result-p").innerHTML = "P = " + p + " W";
 }
 let calculatePButton = document.getElementById("calculate-p");
 calculatePButton.addEventListener("click", calculateP);
 
 function resetP() {
-    document.getElementById("W").value = "";
+    document.getElementById("A").value = "";
     document.getElementById("t").value = "";
     document.getElementById("result-p").innerHTML = "";
 }
 let resetPButton = document.getElementById("reset-p");
 resetPButton.addEventListener("click", resetP);
+
+let defaultElements = document.getElementsByClassName("default");
+for (let i = 0; i < defaultElements.length; i++) {
+    defaultElements[i].style.display = "block";
+}
 
 function toggle(event) {
     let element = event.target;
