@@ -1,0 +1,91 @@
+{
+    "splashScreen": {
+        "desktop": {
+            "desktopweb": {},
+            "kiosk": {}
+        },
+        "mobile": {
+            "android": {},
+            "iphone": {
+                "splashConfig": {
+                    "_skin_": "s93e27b835df4e8099d886a20a24c460",
+                    "children": [
+                        {
+                            "UIElementType": "Image",
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_left_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_src_": "splash.png",
+                            "_top_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "contentmode": 0,
+                            "id": "splashImage",
+                            "isvisible": true,
+                            "kuid": "e1248a1a83ac471384ed45d005636364",
+                            "wType": "Image"
+                        }
+                    ]
+                }
+            },
+            "spa": {},
+            "spaan": {},
+            "spabb": {},
+            "spaip": {},
+            "spawinphone8": {},
+            "winphone10": {},
+            "winphone8": {}
+        },
+        "tablet": {
+            "android": {},
+            "ipad": {
+                "landscape": {},
+                "splashConfig": {
+                    "_skin_": "s93e27b835df4e8099d886a20a24c460",
+                    "children": [
+                        {
+                            "UIElementType": "Image",
+                            "_height_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "_left_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_src_": "splash.png",
+                            "_top_": {
+                                "type": "string",
+                                "value": "0dp"
+                            },
+                            "_width_": {
+                                "type": "string",
+                                "value": "100%"
+                            },
+                            "contentmode": 0,
+                            "id": "splashImage",
+                            "isvisible": true,
+                            "kuid": "ead1796edf7c4bffa9aa4cfb4589e5bc",
+                            "wType": "Image"
+                        }
+                    ]
+                }
+            },
+            "spa": {},
+            "spaandroidtablet": {},
+            "spaipad": {},
+            "spawindowstablet": {},
+            "windows8": {}
+        }
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "@class": "com.kony.gen.viz.model.component.KVizButton",
+    "DNDConfig": null,
+    "__parentReadjusting__": false,
+    "_bottom_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_left_": {
+        "type": "string",
+        "value": "17dp"
+    },
+    "_margin_": [
+        6,
+        6,
+        6,
+        6
+    ],
+    "_padding_": [
+        0,
+        0,
+        0,
+        0
+    ],
+    "_right_": {
+        "type": "string",
+        "value": "0dp"
+    },
+    "_skin_": "sb74229a549348bb88dfbeb3dd55d6e2",
+    "_text_": "Link 2",
+    "_width_": {
+        "type": "string",
+        "value": "41dp"
+    },
+    "android": {
+        "width": {
+            "type": "string",
+            "value": "45dp"
+        }
+    },
+    "canUpdateUI": true,
+    "centery": {
+        "type": "string",
+        "value": "50%"
+    },
+    "containerweight": 100,
+    "contentalignment": 5,
+    "desktopweb": {
+        "psp": {
+            "hoverSkin": "sce9ebbe64854a86886bbd24f2a7bf8f"
+        }
+    },
+    "disabledSkins": {},
+    "displaytext": true,
+    "focusskin": "s01ef0a541cd446bb9d472fe0ffb973c",
+    "id": "Link2",
+    "info": null,
+    "isvisible": true,
+    "kuid": "ic97e0f799d441d48c5ca110fb162133",
+    "masterType": 1,
+    "name": "kony.ui.Button",
+    "parent": "HyperLinkContainer",
+    "pf": "userwidgetmodel",
+    "spaan": {
+        "width": {
+            "type": "string",
+            "value": "50dp"
+        }
+    },
+    "wType": "Button",
+    "zindex": 1
+}
