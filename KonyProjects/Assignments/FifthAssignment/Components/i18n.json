@@ -1,0 +1,79 @@
+{
+    "keys": [
+        "home",
+        "mobile",
+        "notes"
+    ],
+    "locales": {
+        "bg_BG": {
+            "i18nStrings": {
+                "home": "имейл",
+                "mobile": "телефон",
+                "notes": "бележки"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "de_DE": {
+            "i18nStrings": {
+                "home": "die E-Mail",
+                "mobile": "die Telefonnummer",
+                "notes": "der Aufzeichnungen"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "en_GB": {
+            "i18nStrings": {
+                "home": "home",
+                "mobile": "mobile",
+                "notes": "notes"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "fr_FR": {
+            "i18nStrings": {
+                "home": "l' email",
+                "mobile": "le numéro de téléphone",
+                "notes": "la note"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        },
+        "it_IT": {
+            "i18nStrings": {
+                "home": "il e-mail",
+                "mobile": "numero di telefono",
+                "notes": "la nota"
+            },
+            "isCustomLocale": false,
+            "isSelected": true,
+            "layoutConfig": {
+                "mirrorContentAlignment": false,
+                "mirrorFlexPositionProperties": false,
+                "mirrorFlowHorizontalAlignment": false
+            }
+        }
+    }
+}

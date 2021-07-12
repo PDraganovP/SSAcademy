@@ -1,0 +1,53 @@
+{
+    "classname": "flexComponent",
+    "definitions": {
+        "apis": {
+            "custom": [],
+            "passthrough": []
+        },
+        "events": {
+            "custom": [],
+            "passthrough": []
+        },
+        "groups": {
+            "apis": [],
+            "events": [],
+            "properties": [],
+            "widgets": []
+        },
+        "properties": {
+            "custom": [],
+            "passthrough": [
+                {
+                    "access": "Enable",
+                    "group": "General",
+                    "kuid": "ecedec809b874038855c23a20b028219",
+                    "originalPropertyKey": "skin",
+                    "propertyIndex": 1,
+                    "propertyKey": "skinFlexContainer",
+                    "pw": {
+                        "access": "readwrite",
+                        "category": "skin",
+                        "dependentKeysKUIDs": null,
+                        "displayName": "flexContainerSkin",
+                        "srcWidget": "flexContainer",
+                        "wType": "FlexContainer"
+                    },
+                    "srcWgtKUID": "d8496b6a367f43ee9e6cf463f2e88679"
+                }
+            ]
+        },
+        "widgets": {
+            "expose": [
+                {
+                    "kuid": "h902eba90f584429b14d4b9d013626e0",
+                    "propertyKey": "flexContainer",
+                    "srcWgtKUID": "d8496b6a367f43ee9e6cf463f2e88679"
+                }
+            ],
+            "passthrough": []
+        }
+    },
+    "namespace": "com.components",
+    "version": "1.0.0"
+}
