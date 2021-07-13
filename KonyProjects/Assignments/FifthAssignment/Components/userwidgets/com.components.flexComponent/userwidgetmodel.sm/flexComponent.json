@@ -46,7 +46,7 @@
     "iscustomlayout": false,
     "isvisible": true,
     "kuid": "bf8736f3207b4961b79b1101b9748dc9",
-    "layouttype": 2,
+    "layouttype": 4,
     "name": "kony.ui.FlexContainer",
     "parent": "userwidgetmodel",
     "pf": "userwidgetmodel",

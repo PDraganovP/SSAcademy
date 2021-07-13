@@ -20,12 +20,13 @@
     "addWidgetsdone": false,
     "allboxes": [],
     "canUpdateUI": true,
+    "canvasWidth": 616,
     "children": [
         "flexComponent"
     ],
     "containerweight": 100,
     "currentLocale": "default",
-    "device": "iPhoneXS",
+    "device": "desktopweb",
     "displayorientation": 3,
     "enabledforidletimeout": false,
     "id": "userwidgetmodel",
@@ -46,13 +47,13 @@
         "formTransition": "None"
     },
     "paddinginpixel": false,
-    "platform": "iphone",
+    "platform": "desktopweb",
     "prevDevice": "iPhoneXS",
     "prevPlatform": "iphone",
     "retaincontentalignment": false,
     "retainflexpositionproperties": false,
     "retainscrollposition": false,
-    "shellCSS": "iOS_iPhoneXS",
+    "shellCSS": "desktop",
     "titlebar": true,
     "type": 3,
     "wType": "Form"

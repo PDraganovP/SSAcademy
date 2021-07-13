@@ -2,7 +2,20 @@
     "classname": "flexComponent",
     "definitions": {
         "apis": {
-            "custom": [],
+            "custom": [
+                {
+                    "group": "General",
+                    "kuid": "e867304afd1444dcb4faed5f8231a165",
+                    "paramList": [],
+                    "propertyKey": "changeColor",
+                    "pw": {
+                        "displayName": "changeColor",
+                        "uiRepresentation": "Label-Label-Button-Button"
+                    },
+                    "srcWgtKUID": "bf8736f3207b4961b79b1101b9748dc9",
+                    "type": "event"
+                }
+            ],
             "passthrough": []
         },
         "events": {
@@ -10,13 +23,32 @@
             "passthrough": []
         },
         "groups": {
-            "apis": [],
+            "apis": [
+                "General"
+            ],
             "events": [],
             "properties": [],
             "widgets": []
         },
         "properties": {
-            "custom": [],
+            "custom": [
+                {
+                    "access": "Write",
+                    "defaultValue": "\"\"",
+                    "group": "General",
+                    "kuid": "d59945adc77044a49b0dc653a40832b0",
+                    "originalPropertyKey": "flexSkin",
+                    "propertyIndex": 2,
+                    "propertyKey": "flexSkin",
+                    "pw": {
+                        "displayName": "flexSkinDisplay",
+                        "uiRepresentation": "Label-Textbox"
+                    },
+                    "srcWgtKUID": "bf8736f3207b4961b79b1101b9748dc9",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
             "passthrough": [
                 {
                     "access": "Enable",

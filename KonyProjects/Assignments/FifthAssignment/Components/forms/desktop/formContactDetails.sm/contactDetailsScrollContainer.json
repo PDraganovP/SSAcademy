@@ -26,7 +26,7 @@
     "_skin_": "s8b2a551c6574462956b47def8ba795f",
     "_top_": {
         "type": "string",
-        "value": "0dp"
+        "value": "80dp"
     },
     "_width_": {
         "type": "string",
@@ -45,6 +45,7 @@
         "emailContainer",
         "notesContainer",
         "contactFuctionalitiesContainer",
+        "inputContainer",
         "flexComponent"
     ],
     "clipbounds": true,

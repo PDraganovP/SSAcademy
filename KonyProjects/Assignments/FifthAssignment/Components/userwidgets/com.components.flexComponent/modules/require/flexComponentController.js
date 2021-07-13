@@ -1,28 +1,34 @@
 define(function() {
-  
+
   var skins={
     red:"sknRed",
     blue:"sknBlue"    
   };
 
-  var changeColor = function(){
-    var skinName = this.view.flexContainer.skin;
-
-    if(skinName==skins.red){
-      this.view.flexContainer.skin=skins.blue;
-    }else if(skinName==skins.blue){
-      this.view.flexContainer.skin=skins.red;
-    }
-  };
-
   return {
     constructor: function(baseConfig, layoutConfig, pspConfig) {
-      this._changeColor=changeColor;
-      this.view.onTouchStart=this._changeColor.bind(this);
+      this._flexSkin="sknBlue";      
     },
+
+    changeColor(){
+      if(this._flexSkin.toLowerCase()=="red"){
+        this.view.flexContainer.skin=skins.red;
+      }else if(this._flexSkin.toLowerCase()=="blue"){
+        this.view.flexContainer.skin=skins.blue;
+      } 
+    },
+
     //Logic for getters/setters of custom properties
     initGettersSetters: function() {
-
+      defineGetter(this, 'flexSkin', () => {
+        return this._flexSkin;
+      });
+      defineSetter(this, 'flexSkin', value => {
+        if (this._flexSkin === value) {
+          return;
+        }
+        this._flexSkin = value;
+      });
     }
   };
 });
