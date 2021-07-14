@@ -2,20 +2,7 @@
     "classname": "flexComponent",
     "definitions": {
         "apis": {
-            "custom": [
-                {
-                    "group": "General",
-                    "kuid": "e867304afd1444dcb4faed5f8231a165",
-                    "paramList": [],
-                    "propertyKey": "changeColor",
-                    "pw": {
-                        "displayName": "changeColor",
-                        "uiRepresentation": "Label-Label-Button-Button"
-                    },
-                    "srcWgtKUID": "bf8736f3207b4961b79b1101b9748dc9",
-                    "type": "event"
-                }
-            ],
+            "custom": [],
             "passthrough": []
         },
         "events": {
@@ -36,7 +23,7 @@
                     "access": "Write",
                     "defaultValue": "\"\"",
                     "group": "General",
-                    "kuid": "d59945adc77044a49b0dc653a40832b0",
+                    "kuid": "a1fdeb033a7b45e2964c895085b9bd07",
                     "originalPropertyKey": "flexSkin",
                     "propertyIndex": 2,
                     "propertyKey": "flexSkin",

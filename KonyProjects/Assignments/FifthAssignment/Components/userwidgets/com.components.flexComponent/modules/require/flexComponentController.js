@@ -15,8 +15,8 @@ define(function() {
         this.view.flexContainer.skin=skins.red;
       }else if(this._flexSkin.toLowerCase()=="blue"){
         this.view.flexContainer.skin=skins.blue;
-      } 
-    },
+      }
+    },   
 
     //Logic for getters/setters of custom properties
     initGettersSetters: function() {
@@ -24,10 +24,8 @@ define(function() {
         return this._flexSkin;
       });
       defineSetter(this, 'flexSkin', value => {
-        if (this._flexSkin === value) {
-          return;
-        }
         this._flexSkin = value;
+        this.changeColor();
       });
     }
   };
